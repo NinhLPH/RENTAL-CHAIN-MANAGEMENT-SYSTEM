@@ -2,7 +2,7 @@ const cors = require("cors");
 const express = require("express");
 const morgan = require("morgan");
 const connectDB = require("./config/db");
-const router = require("./routes/router");
+const router = require("./routes/renter.router");
 
 const app = express();
 

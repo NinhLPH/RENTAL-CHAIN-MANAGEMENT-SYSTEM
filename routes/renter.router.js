@@ -6,8 +6,8 @@ const {
   getRentalHistory,
   mockPayBill,
   updateProfile,
-} = require("../controllers/controller");
-const { requireRenter } = require("../middlewares/middlewares");
+} = require("../controllers/renter.controller");
+const { requireRenter } = require("../middlewares/renter.middlewares");
 
 const router = express.Router();
 
